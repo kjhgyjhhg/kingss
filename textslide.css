@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	display:flex;
+}
+.slide{
+	
+	overflow:hidden;
+}
+.slide figure img{
+	margin: auto;
+	width: 15%;
+	height: 600px;
+	float:left;
+}
+.slide figure{
+	position: relative;
+	width: 500%;
+	margin: 0px;
+	left: 0px;
+	animation: krutom 10s infinite linear;
+}
+@keyframes krutom{
+	0%{left: 0%}
+	15%{left: -50%}
+	20%{left: -50%}
+	35%{left: -100%}
+	40%{left: -120%}
+	60%{left: -150%}
+	80%{left: 10%}
+	100%{left: -20%}
+
+}

@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	
+	display: flex;
+	justify-content: center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.menu{
+	position: relative;
+}
+.menu ul{
+	display:flex;
+	padding:0;
+}
+.menu ul li{
+	padding: 30px 35px;
+	list-style:none;
+}
+.menu ul li a{
+	text-decoration:none;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 30px;
+}
+.menu ul li:hover{
+	background-color:#eb4e17;
+	transition: 0.5s;
+}
+body{
+	display: flex;
+	color: #734319;
+}
+.menus{
+	position: relative;
+}
+.menus ul{
+	display:flex;
+	padding:0;
+}
+.menus ul li{
+	padding: 30px 35px;
+	list-style:none;
+}
+.menus ul li a{
+	text-decoration:none;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #cac197;
+	font-weight: bold;
+	font-size: 30px;
+	transition: 0.5s;
+}
+.menus ul li:hover a{
+	color: #FFF;
+	transition: 0.5s;
+}

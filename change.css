@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.change img{
+	width:250px;
+	height: 250px;
+	transition: 1s;
+}
+.change img:hover{
+	transform:scale(1.1);
+}
